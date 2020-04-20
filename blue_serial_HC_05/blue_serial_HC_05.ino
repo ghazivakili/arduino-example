@@ -6,7 +6,7 @@ int LED_BUILTIN = 2;
 
 void setup() {
   Serial.begin(9600); //Start Serial monitor in 9600
-  BTserial.begin("LANZI_SERIAL_CONTROL"); //Name of your Bluetooth Signal
+  BTserial.begin(9600); //Name of your Bluetooth Signal
   Serial.println("Bluetooth Device is Ready to Pair");
 
   pinMode (LED_BUILTIN, OUTPUT);//Specify that LED pin is output

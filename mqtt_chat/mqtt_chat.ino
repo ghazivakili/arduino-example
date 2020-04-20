@@ -3,12 +3,12 @@
 
 
 // Update these with values suitable for your network.
-const char* ssid = "Vodafone-spring";
-const char* password = "2188251973";
-const char* mqtt_server = "hairdresser.cloudmqtt.com";
+const char* ssid = "xxxxx";
+const char* password = "xxxxx";
+const char* mqtt_server = "xxxxx";
 #define mqtt_port 16598
-#define MQTT_USER "arduino"
-#define MQTT_PASSWORD "MohamadEla13"
+#define MQTT_USER "xxxx"
+#define MQTT_PASSWORD "xxxx"
 //define the topic for recieve and transmite (outbox/inbox)
 #define MQTT_SERIAL_PUBLISH_CH "arduino/serialdata/sent"
 #define MQTT_SERIAL_RECEIVER_CH "arduino/serialdata/inbox"
