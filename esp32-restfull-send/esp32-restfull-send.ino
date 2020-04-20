@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
  
-const char* ssid = "Vodafone-spring";
-const char* password =  "****";
+const char* ssid = "xxxx";
+const char* password =  "xxxxx";
 long randNumber;
 String getlink;
 void setup() {
